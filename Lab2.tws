@@ -1,0 +1,19 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.1" 
+[CURRENT_PROJECT]
+"Lab2" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\WorkSpace\Lab2\Lab2\Empty.c" 
+"C:\WorkSpace\Lab2\Lab2\ncrt0.a30" 
+"C:\WorkSpace\Lab2\Lab2\qsk_lcd.h" 
+"C:\WorkSpace\testKit\testKit\qsk_lcd.c" 
+[WORKSPACE_FILE_STATES]
+"C:\WorkSpace\Lab2\Lab2\Empty.c" 22 29 1110 315 0 0 
+"C:\WorkSpace\Lab2\Lab2\ncrt0.a30" 88 116 1136 288 0 3 
+"C:\WorkSpace\Lab2\Lab2\qsk_lcd.h" 44 58 1114 319 0 1 
+"C:\WorkSpace\testKit\testKit\qsk_lcd.c" -4 -30 1232 438 1 2 
+[END]

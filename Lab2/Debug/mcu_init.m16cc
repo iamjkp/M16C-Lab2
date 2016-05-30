@@ -1,0 +1,4 @@
+-c
+-finfo
+-dir "C:\WorkSpace\Lab2\Lab2\Debug"
+"C:\WorkSpace\Lab2\Lab2\mcu_init.c"

@@ -1,0 +1,143 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+C:\Renesas\NC30WA\V540R00\bin\ln30.exe @C:\WorkSpace\Lab2\Lab2\Debug\Lab2.m16cl
+
+# LINK FILE INFORMATION
+ncrt0 (C:\WorkSpace\Lab2\Lab2\Debug\ncrt0.r30)
+	Sep 10 16:57:27 2015
+
+Empty (C:\WorkSpace\Lab2\Lab2\Debug\Empty.r30)
+	Sep 10 16:57:27 2015
+
+mcu_init (C:\WorkSpace\Lab2\Lab2\Debug\mcu_init.r30)
+	Sep 10 16:57:27 2015
+
+qsk_lcd (C:\WorkSpace\Lab2\Lab2\Debug\qsk_lcd.r30)
+	Sep 10 16:57:27 2015
+
+_mbase (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:04 2005
+
+bcopy (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:07 2005
+
+bzero (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:07 2005
+
+mdata (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:18 2005
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0
+bss_SE                           REL DATA    000400 000000 2     ncrt0
+data_SO                          REL DATA    000400 000000       ncrt0
+bss_SO                           REL DATA    000400 000000       ncrt0
+data_NE                          REL DATA    000400 000000 2     ncrt0
+                                 REL DATA    000400 000040 2     qsk_lcd
+                                 REL DATA    000440 000010 2     mdata
+bss_NE                           REL DATA    000450 000000 2     ncrt0
+                                 REL DATA    000450 000004 2     _mbase
+                                 REL DATA    000454 000008 2     mdata
+data_NO                          REL DATA    00045C 000000       ncrt0
+                                 REL DATA    00045C 000001       qsk_lcd
+bss_NO                           REL DATA    00045D 000000       ncrt0
+stack                            REL DATA    00045D 000600       ncrt0
+heap                             REL DATA    000A5D 000300       ncrt0
+rom_NE                           REL ROMDATA 000D5E 000000 2     ncrt0
+rom_NO                           REL ROMDATA 000D5E 000000       ncrt0
+data_FE                          ABS DATA    010000 000000       ncrt0
+bss_FE                           REL DATA    010000 000000 2     ncrt0
+data_FO                          REL DATA    010000 000000       ncrt0
+bss_FO                           REL DATA    010000 000000       ncrt0
+rom_FE                           ABS ROMDATA 0F0000 000000       ncrt0
+rom_FO                           REL ROMDATA 0F0000 000000       ncrt0
+                                 REL ROMDATA 0F0000 000016       Empty
+data_SEI                         REL ROMDATA 0F0016 000000       ncrt0
+data_SOI                         REL ROMDATA 0F0016 000000       ncrt0
+data_NEI                         REL ROMDATA 0F0016 000000       ncrt0
+                                 REL ROMDATA 0F0016 000040       qsk_lcd
+                                 REL ROMDATA 0F0056 000010       mdata
+data_NOI                         REL ROMDATA 0F0066 000000       ncrt0
+                                 REL ROMDATA 0F0066 000001       qsk_lcd
+data_FEI                         REL ROMDATA 0F0067 000000       ncrt0
+data_FOI                         REL ROMDATA 0F0067 000000       ncrt0
+switch_table                     REL ROMDATA 0F0067 000000       ncrt0
+program                          REL CODE    0F0067 000000       ncrt0
+                                 REL CODE    0F0068 000039 2     Empty
+                                 REL CODE    0F00A2 000044 2     mcu_init
+                                 REL CODE    0F00E6 00021F 2     qsk_lcd
+                                 REL CODE    0F0306 000035 2     bcopy
+                                 REL CODE    0F033C 000028 2     bzero
+interrupt                        REL CODE    0F0364 000000       ncrt0
+                                 REL CODE    0F0364 000117       ncrt0
+program_S                        REL CODE    0F047B 000000       ncrt0
+vector                           ABS ROMDATA 0FF800 000100       ncrt0
+svector                          ABS ROMDATA 0FFF00 000000       ncrt0
+fvector                          ABS ROMDATA 0FFFFC 000004       ncrt0
+# Total -------------------------------------------------------------------
+                                     DATA           00095D(0002397) Byte(s)
+                                     ROMDATA        00016B(0000363) Byte(s)
+                                     CODE           000414(0001044) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$DisplayString     0f0190  $LCD_write         0f01ee  $exit              0f0478
+_DisplayCursorBl   0f02e2  _DisplayCursorLe   0f02ee  _DisplayCursorOf   0f02d6
+_DisplayCursorOn   0f02ca  _DisplayCursorRi   0f02fa  _DisplayDelay      0f029c
+_InitDisplay       0f00e6  __mbase            000450  __memt             000448
+__mnext            000454  __msize            000458  __pool             000440
+_bcopy             0f0306  _bzero             0f033c  _exit              0f0478
+_logo_map          000400  _main              0f0068  _mcu_init          0f00a2
+dummy_int          0f047a  start              0f0364  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0 ( C:\WorkSpace\Lab2\Lab2\Debug\ncrt0.r30 )
+@ Empty ( C:\WorkSpace\Lab2\Lab2\Debug\Empty.r30 )
+@ mcu_init ( C:\WorkSpace\Lab2\Lab2\Debug\mcu_init.r30 )
+@ qsk_lcd ( C:\WorkSpace\Lab2\Lab2\Debug\qsk_lcd.r30 )
+@ _mbase ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bcopy ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bzero ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ mdata ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0 ( C:\WorkSpace\Lab2\Lab2\Debug\ncrt0.r30 )
+@ Empty ( C:\WorkSpace\Lab2\Lab2\Debug\Empty.r30 )
+@ mcu_init ( C:\WorkSpace\Lab2\Lab2\Debug\mcu_init.r30 )
+@ qsk_lcd ( C:\WorkSpace\Lab2\Lab2\Debug\qsk_lcd.r30 )
+@ _mbase ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bcopy ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bzero ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ mdata ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0 ( C:\WorkSpace\Lab2\Lab2\Debug\ncrt0.r30 )
+@ Empty ( C:\WorkSpace\Lab2\Lab2\Debug\Empty.r30 )
+@ mcu_init ( C:\WorkSpace\Lab2\Lab2\Debug\mcu_init.r30 )
+@ qsk_lcd ( C:\WorkSpace\Lab2\Lab2\Debug\qsk_lcd.r30 )
+@ _mbase ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bcopy ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bzero ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ mdata ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+
